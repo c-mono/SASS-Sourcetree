@@ -1,13 +1,85 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile</title>
-    <link rel="stylesheet" href="../../css/codestep/01-profile/style.css">
-</head>
-<body>
-    <h1>テスト</h1>
-</body>
+    <link rel="stylesheet" href="../../css/codestep/01-profile/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-logo">
+          <img src="img/logo.svg" alt="" />
+        </div>
+        <ul class="header-list">
+          <li>About</li>
+          <li>Bicycle</li>
+        </ul>
+      </div>
+    </header>
+    <div class="mv">
+      <div class="mv-container">
+        <img src="img/mainvisual.jpg" alt="" />
+      </div>
+    </div>
+    <main>
+      <section id="about">
+        <div class="about-container">
+          <h1>About</h1>
+          <div>
+            <div class="about--img">
+              <img src="img/about.jpg" alt="">
+            </div>
+            <div class="about-content">
+              <h2>KAKERU MIYAICHI</h2>
+              <p>テキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキスト
+                テキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+      </section><!-- about -->
+      <section id="bicycle">
+        <div class="bicycle-container">
+        <h1>Bicycle</h1>
+          <div>
+          <ul class="bicycle-list">
+            <li class="bicycle-list__item">
+              <div class="bicycle-list__item--img">
+                <img src="img/bicycle1.jpg" alt="" />
+              </div>
+              <div class="bicycle-list__item-container">
+                <h2 class="bicycle-list__item--ttl">タイトルタイトル</h3>
+                <p class="bicycle-list__item--txt">テキストテキストテキスト</p>
+              </div>
+            </li>
+            <li class="bicycle-list__item">
+              <div class="bicycle-list__item--img">
+                <img src="img/bicycle2.jpg" alt="" />
+              </div>
+              <div class="bicycle-list__item-container">
+                <h3 class="bicycle-list__item--ttl">タイトルタイトル</h3>
+                <p class="bicycle-list__item--txt">テキストテキストテキスト</p>
+              </div>
+            </li>
+            <li class="bicycle-list__item">
+              <div class="bicycle-list__item--img">
+                <img src="img/bicycle3.jpg" alt="" />
+              </div>
+              <div class="bicycle-list__item-container">
+                <h3 class="bicycle-list__item--ttl">タイトルタイトル</h3>
+                <p class="bicycle-list__item--txt">テキストテキストテキスト</p>
+              </div>
+            </li>
+          </ul>
+          </div>
+        </div>
+      </section><!-- bicycle -->
+    </main>
+    <footer>
+      <p>&#xAE;2020 Profile</p>
+    </footer>
+  </body>
 </html>
